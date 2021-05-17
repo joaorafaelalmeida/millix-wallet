@@ -13,6 +13,7 @@ import PeerListView from './peer-list-view';
 import PeerInfoView from './peer-info-view';
 import NewWallet from './new-wallet';
 import ActionView from './action-view';
+import FileView from './file-view';
 
 
 class AppContainer extends Component {
@@ -52,6 +53,8 @@ class AppContainer extends Component {
                                                  component={PeerInfoView}/>
                     <UnlockedWalletRequiredRoute path='/actions'
                                                  component={ActionView}/>
+                    <UnlockedWalletRequiredRoute path='/files'
+                                                 component={FileView}/>
                     <UnlockedWalletRequiredRoute component={Wallet}/>
                 </Switch>
             </Router>

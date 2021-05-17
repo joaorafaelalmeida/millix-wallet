@@ -70,6 +70,11 @@ class Sidebar extends Component {
                             transactions
                         </NavText>
                     </NavItem>
+                    <NavItem key={'files'} eventKey="/files">
+                        <NavText>
+                            my files
+                        </NavText>
+                    </NavItem>
                     <NavItem key={'connections'} eventKey="/peers">
                         <NavText>
                             connections
